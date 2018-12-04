@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^http://192.168.1.101/meratrainer/.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.rnltechnologies.com/meratrainer/.*$ [NC]
+RewriteRule .(mp4|mp3|avi)$ - [F]
+</IfModule>

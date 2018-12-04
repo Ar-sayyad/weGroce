@@ -1,0 +1,184 @@
+
+/*.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}*/
+.rounded-circle {
+    border-radius: 50%;
+    border: 1px solid #eeeeee;
+}
+.profile {
+    padding: 25px 25px 5px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 30px 0 rgba(132, 36, 72, 0.43);
+    }
+.profile figure {
+    width: 200px;
+    margin: 5px auto 10px;
+}
+.profile ul {
+    padding: 0;
+    margin: 0 -25px;
+    list-style-type: none;
+}
+.profile ul li {
+    border-top: 1px solid #ededed;
+    padding: 12px 20px;
+    font-weight: 700;
+    list-style-type: none;
+    font-family: 'Comforta';
+}
+.profile ul li span {
+    font-weight: 400;
+}
+.indent_title_in {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 0px;
+    width: 70%;
+}
+
+.indent_title_in h3 {
+    margin-bottom: 10px !important;
+}
+.filter_type ul, .list_articles ul, .profile ul, .sbOptions, ol, ul, ul#cat_nav, ul#grid_home, ul.list_3, ul.list_ok, ul.list_teachers, ul.social_teacher {
+    list-style: none;
+}
+.list_lessons ul li a.video:before {
+    /* font-family: ElegantIcons; */
+    /* content: "\49"; */
+    /* margin-right: 10px; */
+}
+.rating {
+    margin-left: 0px;
+    width: 100%;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    color: #f0ad4e;
+}
+.wrapper_indent {
+    padding-left: 0px !important;
+    border-top: 1px solid #ededed;
+}
+section#description, section#lessons, section#reviews {
+    border: 1px solid #ededed;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+.add_bottom_45 {
+    margin-bottom: 45px;
+}
+.card {
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 5px;
+}
+.card-header {
+    padding: 0.5rem 1.50rem;
+    margin-bottom: 0px;
+    background-color: #747672;
+    border: 1px solid rgba(97, 15, 72, 0.35);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.32);
+}
+.card-header h5 {
+    font-size: 19px;
+    font-size: 1rem;
+}
+.card-header h5 a {
+    color: white;
+    font-size: 20px;
+}
+.list_lessons ul {
+    margin: 0;
+}
+.card-header h5 a {
+    border: 0;
+    display: block;
+    
+}
+.card-header h5 a i.indicator {
+    color: white;
+}
+.card-header h5 a i.indicator {
+   
+    font-size: 19px;
+    font-weight: 900;
+    margin-right: 5px;
+   
+}
+[class*=" ti-"], [class^=ti-] {
+    font-family: themify;
+    font-style: normal;
+}
+[class*=" pe-7s-"], [class*=" ti-"], [class^=pe-7s-], [class^=ti-], [data-icon]:before {
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.card-bd {
+    /* background-color: #fff; */
+    /* border: 1px solid #ccc; */
+    /* box-shadow: 0 0 20px 0 rgba(100, 17, 72, 0.4); */
+    padding: 0.25rem;
+}
+.list_lessons ul li {
+    /* border-bottom: 1px solid #ededed; */
+    padding: 10px 10px;
+}
+.grid ul {
+    margin: 0 0 25px;
+    padding: 0;
+    
+    width: 100%;
+    lign: center;
+}
+.grid ul li {
+    display: inline-block;
+    padding: 0;
+    margin: 0px;
+    height: 150px;
+    width: 24% !important;
+    background-color: #000;
+    border: 1px solid #ededed !important;
+    list-style: none;
+    box-shadow: 0px 2px 2px 0px #b72b2b4a !important;
+}
+.grid ul li figure {
+    position: relative;
+    overflow: hidden;
+    /* margin: -3px; */
+}
+.grid ul li figure img {
+    transition: all .3s ease-in-out;
+}
+.grid ul li figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15% 0;
+    background-color: #000;
+    background-color: rgba(0,0,0,.6);
+    text-align: center;
+    font-size: 14px;
+    font-size: .875rem;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
+.box_teacher {
+    padding: 30px 25px 5px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 30px 0 rgba(143, 43, 72, 0.38);
+}

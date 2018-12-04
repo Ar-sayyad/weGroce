@@ -1,0 +1,217 @@
+.prod_name{
+            color: #777;
+    text-align: center;
+    padding: 15px 30px;
+    font-size: 15px;
+    font-family: arial;
+        height: 50px;
+}
+.prod_price{
+    text-align: center;
+    padding: 0px 30px 0px;
+    color: black;
+    font-size: large;
+}
+.cart_plu{
+      padding: 8px !important;
+    background-color: #0093d2;
+    border: 1px solid #fba50f;
+    font-size: 15px !important;
+    border-radius: 0px;
+}
+.soc_log{
+        color: #fff;
+    padding: 6px !important;
+    margin: 10px;
+    border-radius: 1px;
+    float: left;
+    width: 28%;
+    margin-right: 10px;
+}
+.orgroup{
+    color: black;
+    font-size: small;
+    font-weight: 600;
+    margin-bottom: unset;
+    margin-top: 10px;
+}
+#regmsg{
+    display: none;
+    z-index: 999999;
+    opacity: 0.8;
+    position: fixed;
+    margin-bottom:0px;
+    margin-top: 50px;
+    color: RED;
+    text-align: center;
+    background-color: #f5f5f5;
+    width: 73%;
+    margin-left: 0px;
+    padding: 1px;
+    border: 2px solid red;
+    border-radius: 0px 15px 0px 15px;
+}
+
+#logmsg{
+    display: none;
+    z-index: 999999;
+    opacity: 1.8;
+    position: fixed;
+    font-size: 15px;
+    margin-bottom:0px;
+    /* margin-top:50px; */
+    color: RED;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    margin-left: 10%;
+    padding: 7px;
+    border: 2px solid red;
+    border-radius: 0px 15px 0px 15px;
+}
+#logsuccess{
+    display: none;
+    z-index: 999999;
+    opacity: 1.0;
+    position: fixed;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    color: green;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 75%;
+    margin-left: 0%;
+    padding: 0px;
+    border: 2px solid #3c763d;
+    border-radius: 0px 15px 0px 15px;
+}
+.rem_crt_product{
+        color: red;
+    font-size: 20px;
+    cursor: pointer;
+}
+.rem_icon{
+    float: left;
+    margin-top: 10px;
+    padding: 5px;width: 20%;
+}
+.crt_p_name{
+    float: left;margin-top: 10px;padding: 5px;width: 40%;line-height: 12px;
+}
+.crt_img_div{
+    float:left;width: 30%;
+}
+.front_prof_img{
+    width: 40px;
+    z-index: 99999;
+    /* opacity: 0.8; */
+    /* position: absolute; */
+    height: 40px;
+    margin-top: -10px;
+    margin-bottom: -20px;
+    border: 2px solid #ccc;
+    border-radius: 40px;
+}
+.front_prof_img_li:hover > a::before{
+       
+        border-bottom: 10px solid #fff;
+	border-left: 10px solid rgba(0, 0, 0, 0);
+	border-right: 10px solid rgba(0, 0, 0, 0);
+	bottom: 0;
+	content: "";
+	height: 0;
+	left: 50%;
+	opacity: 1;
+	position: absolute;
+	transform: translateX(-50%);
+	width: 0;
+}
+.prof_tab{
+         margin-bottom: 0px;
+    background-color: #fff;
+    width: 100%;    
+    padding: 10px;
+}
+.prof_tab > a{
+    color:#414141;;
+}
+.prof_tab:hover{
+         margin-bottom: 0px;
+    background-color: #eee;
+    width: 100%;
+    padding: 10px;
+}
+.cart-img{
+        width: 80px;
+        height: 80px;
+        border: 1px solid #ccc;
+    }
+    .prd_nm{
+            font-size: 11px;
+    font-weight: 600;
+    line-height: 50px;
+    }
+    .prd_qty{
+        text-align: center;
+    width: 85%;
+    }
+    .prd_amt{
+            font-size: 17px;
+    font-weight: 600;
+    }
+    .prd-rem{
+        font-size:large;
+        color: red;
+        cursor: pointer;
+    }
+    
+    #profmsg{
+    display: none;
+    z-index: 999999;
+    opacity: 0.8;
+    position: fixed;
+    margin-bottom:0px;
+    margin-top: 50px;
+    color: RED;
+    text-align: center;
+    background-color: #f5f5f5;
+    width: 60%;
+    margin-left: 0px;
+    padding: 1px;
+    border: 2px solid red;
+    border-radius: 0px 15px 0px 15px;
+}
+
+#proflmsg{
+    display: none;
+    z-index: 999999;
+    opacity: 1.8;
+    position: fixed;
+    font-size: 15px;
+    margin-bottom:0px;
+    /* margin-top:50px; */
+    color: RED;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    margin-left: 10%;
+    padding: 7px;
+    border: 2px solid red;
+    border-radius: 0px 15px 0px 15px;
+}
+#profsuccess{
+    display: none;
+    z-index: 999999;
+    opacity: 1.0;
+    position: fixed;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    color: green;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    margin-left: 0%;
+    padding: 0px;
+    border: 2px solid #3c763d;
+    border-radius: 0px 15px 0px 15px;
+}
